@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		106CBFE21E4FC4EB00D48F34 /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106CBFE11E4FC4EB00D48F34 /* AddNoteViewController.m */; };
+		106CBFE41E4FC5FD00D48F34 /* AddNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 106CBFE31E4FC5FD00D48F34 /* AddNoteViewController.xib */; };
+		107465571E4E3CDF00E7BEB8 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 107465561E4E3CDF00E7BEB8 /* Note.m */; };
+		10C797F41E4DDF9D00DF22A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C797F31E4DDF9D00DF22A0 /* main.m */; };
+		10C797F71E4DDF9D00DF22A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C797F61E4DDF9D00DF22A0 /* AppDelegate.m */; };
+		10C797FF1E4DDF9D00DF22A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C797FE1E4DDF9D00DF22A0 /* Assets.xcassets */; };
+		10C798021E4DDF9D00DF22A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C798001E4DDF9D00DF22A0 /* LaunchScreen.storyboard */; };
+		10C7980B1E4DE3B900DF22A0 /* NotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C7980A1E4DE3B900DF22A0 /* NotesTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		106CBFE01E4FC4EB00D48F34 /* AddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
+		106CBFE11E4FC4EB00D48F34 /* AddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
+		106CBFE31E4FC5FD00D48F34 /* AddNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddNoteViewController.xib; sourceTree = "<group>"; };
+		107465551E4E3CDF00E7BEB8 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		107465561E4E3CDF00E7BEB8 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		10C797EF1E4DDF9D00DF22A0 /* NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C797F31E4DDF9D00DF22A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10C797F51E4DDF9D00DF22A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10C797F61E4DDF9D00DF22A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10C797FE1E4DDF9D00DF22A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10C798011E4DDF9D00DF22A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10C798031E4DDF9D00DF22A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C798091E4DE3B900DF22A0 /* NotesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesTableViewController.h; sourceTree = "<group>"; };
+		10C7980A1E4DE3B900DF22A0 /* NotesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10C797EC1E4DDF9C00DF22A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C797E61E4DDF9C00DF22A0 = {
+			isa = PBXGroup;
+			children = (
+				10C797F11E4DDF9D00DF22A0 /* NoteBook */,
+				10C797F01E4DDF9D00DF22A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10C797F01E4DDF9D00DF22A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C797EF1E4DDF9D00DF22A0 /* NoteBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10C797F11E4DDF9D00DF22A0 /* NoteBook */ = {
+			isa = PBXGroup;
+			children = (
+				10C797F51E4DDF9D00DF22A0 /* AppDelegate.h */,
+				10C797F61E4DDF9D00DF22A0 /* AppDelegate.m */,
+				10C797FE1E4DDF9D00DF22A0 /* Assets.xcassets */,
+				10C798001E4DDF9D00DF22A0 /* LaunchScreen.storyboard */,
+				10C798031E4DDF9D00DF22A0 /* Info.plist */,
+				10C797F21E4DDF9D00DF22A0 /* Supporting Files */,
+				10C798091E4DE3B900DF22A0 /* NotesTableViewController.h */,
+				10C7980A1E4DE3B900DF22A0 /* NotesTableViewController.m */,
+				107465551E4E3CDF00E7BEB8 /* Note.h */,
+				107465561E4E3CDF00E7BEB8 /* Note.m */,
+				106CBFE01E4FC4EB00D48F34 /* AddNoteViewController.h */,
+				106CBFE11E4FC4EB00D48F34 /* AddNoteViewController.m */,
+				106CBFE31E4FC5FD00D48F34 /* AddNoteViewController.xib */,
+			);
+			path = NoteBook;
+			sourceTree = "<group>";
+		};
+		10C797F21E4DDF9D00DF22A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10C797F31E4DDF9D00DF22A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10C797EE1E4DDF9C00DF22A0 /* NoteBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C798061E4DDF9D00DF22A0 /* Build configuration list for PBXNativeTarget "NoteBook" */;
+			buildPhases = (
+				10C797EB1E4DDF9C00DF22A0 /* Sources */,
+				10C797EC1E4DDF9C00DF22A0 /* Frameworks */,
+				10C797ED1E4DDF9C00DF22A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteBook;
+			productName = NoteBook;
+			productReference = 10C797EF1E4DDF9D00DF22A0 /* NoteBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10C797E71E4DDF9C00DF22A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Theodosis ltd";
+				TargetAttributes = {
+					10C797EE1E4DDF9C00DF22A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 10C797EA1E4DDF9C00DF22A0 /* Build configuration list for PBXProject "NoteBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10C797E61E4DDF9C00DF22A0;
+			productRefGroup = 10C797F01E4DDF9D00DF22A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10C797EE1E4DDF9C00DF22A0 /* NoteBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10C797ED1E4DDF9C00DF22A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C798021E4DDF9D00DF22A0 /* LaunchScreen.storyboard in Resources */,
+				106CBFE41E4FC5FD00D48F34 /* AddNoteViewController.xib in Resources */,
+				10C797FF1E4DDF9D00DF22A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C797EB1E4DDF9C00DF22A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C797F71E4DDF9D00DF22A0 /* AppDelegate.m in Sources */,
+				10C797F41E4DDF9D00DF22A0 /* main.m in Sources */,
+				10C7980B1E4DE3B900DF22A0 /* NotesTableViewController.m in Sources */,
+				107465571E4E3CDF00E7BEB8 /* Note.m in Sources */,
+				106CBFE21E4FC4EB00D48F34 /* AddNoteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10C798001E4DDF9D00DF22A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C798011E4DDF9D00DF22A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10C798041E4DDF9D00DF22A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10C798051E4DDF9D00DF22A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10C798071E4DDF9D00DF22A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NoteBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodosis.NoteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10C798081E4DDF9D00DF22A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NoteBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodosis.NoteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C797EA1E4DDF9C00DF22A0 /* Build configuration list for PBXProject "NoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C798041E4DDF9D00DF22A0 /* Debug */,
+				10C798051E4DDF9D00DF22A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C798061E4DDF9D00DF22A0 /* Build configuration list for PBXNativeTarget "NoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C798071E4DDF9D00DF22A0 /* Debug */,
+				10C798081E4DDF9D00DF22A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10C797E71E4DDF9C00DF22A0 /* Project object */;
+}
